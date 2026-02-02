@@ -23,3 +23,6 @@ prezzoFinale = prezzoBase * 0.6;
 /* Nessun sconto  */
  prezzoFinale = prezzoBase;
 }
+
+/* Max 2 decimali */
+prezzoFinale = prezzoFinale.toFixed(2);
