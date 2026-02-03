@@ -16,4 +16,13 @@ ALTRIMENTI
 ALTRIMENTI
        -non si applica nessuno sconto
 
--Far vedere il risultato final all'utente.
+-Far vedere il risultato finale all'utente.
+
+TOOLS:
+-const/let
+-prompt
+-if/else
+-relational operators
+-console.log
+-toFixed
+-parseFloat/Int

@@ -20,9 +20,13 @@ if (eta < 18) {
 prezzoFinale = prezzoBase * 0.6;
 } else {
 
-/* Nessun sconto  */
+/* Nessuno sconto  */
  prezzoFinale = prezzoBase;
 }
 
 /* Max 2 decimali */
 prezzoFinale = prezzoFinale.toFixed(2);
+
+/* Prezzo Finale in console/visibile all'utente */
+console.log(`Prezzo finale del biglietto: €${prezzoFinale}`);
+alert(`Prezzo finale del biglietto: €${prezzoFinale}`);
